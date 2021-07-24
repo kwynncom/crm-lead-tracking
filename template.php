@@ -7,9 +7,14 @@
 <title>leads</title>
 
 <script>
-	var G_INIT_LEADS = <?php echo($G_BIGLA_JSON); ?>;
+	var G_INIT_LEADS = <?php 
+		echo($G_BIGLA_JSON); 
+	?>;
 </script>
 
+<?php 
+	users::echoJS(); 
+?>
 
 </head>
 <body>
