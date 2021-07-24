@@ -2,9 +2,6 @@
 
 require_once('PRIVATE_config.php');
 
-$biga = getCSVA();
-
-
 function getCSVA() {
 
 	$t = file_get_contents(KWYNN_INIT_CSV_PATH);
@@ -29,5 +26,3 @@ function getCSVA() {
 	return $biga;
 
 }
-
-exit(0);
