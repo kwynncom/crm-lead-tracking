@@ -6,6 +6,9 @@
 
 <title>leads</title>
 
+<script src='js/utils.js'></script>
+<script src='js/load10.js'></script>
+<script src='js/win_onload.js'></script>
 <script>
 	var G_INIT_LEADS = <?php 
 		echo($G_BIGLA_JSON); 
@@ -18,6 +21,16 @@
 
 </head>
 <body>
+	
+	<table>
+		<thead>
+			<tr><th>url</th><th>Y</th><th>FUP</th><th>N</th><th>notes</th></tr>
+		</thead>
+		<tbody id='tbody10'>
+			
+		</tbody>
+		
+	</table>
 	
 </body>
 </html>
